@@ -1,0 +1,141 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5dc;
+    /* Бежевый фон */
+}
+
+header {
+    background-color: #7919b9;
+    /* Фиолетовый фон */
+    color: white;
+    /* Цвет текста */
+    padding: 10px 0;
+    /* Вертикальные отступы */
+    display: flex;
+    /* Используем flexbox для расположения элементов */
+    justify-content: space-between;
+    /* Распределяем пространство между заголовком и меню */
+    align-items: center;
+    /* Центрируем элементы по вертикали */
+}
+
+nav {
+    background-color: #7919b9;
+    /* Убедитесь, что nav также имеет фоновый цвет */
+    width: 30%;
+    /* Задаем ширину навигационного меню */
+}
+
+ul {
+    padding: 0;
+    /* Убираем отступы у списка */
+    margin: 0;
+    /* Убираем внешние отступы у списка */
+    list-style-type: none;
+    /* Убираем маркеры списка */
+    display: flex;
+    /* Выстраиваем элементы списка в ряд */
+}
+
+li {
+    margin: 0 15px;
+    /* Добавляем маргины между элементами списка */
+}
+
+a {
+    color: white;
+    /* Цвет ссылок */
+    text-decoration: none;
+    /* Убираем подчеркивание */
+}
+
+nav {
+    flex-grow: 1;
+    /* Заставляет nav занимать оставшееся пространство во flex-контейнере */
+}
+
+ul {
+    padding: 0;
+    /* Убираем отступы у списка */
+    margin: 0;
+    /* Убираем внешние отступы у списка */
+    list-style-type: none;
+    /* Убираем маркеры списка */
+    display: flex;
+    /* Выстраиваем элементы списка в ряд */
+}
+
+li {
+    margin: 0 15px;
+    /* Добавляем маргины между элементами списка */
+}
+
+a {
+    color: white;
+    /* Цвет ссылок */
+    text-decoration: none;
+    /* Убираем подчеркивание */
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    /* Располагаем меню в одну линию */
+}
+
+nav li {
+    margin-left: 20px;
+    /* Отступ между элементами меню */
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    border: 3px solid #ddd;
+}
+
+.projects-container {
+    display: flex;
+    /* Используем flexbox для выстраивания в линию */
+    flex-wrap: wrap;
+    /* Позволяем переносить элементы на новую строку */
+    justify-content: space-between;
+    /* Равномерное распределение пространства */
+}
+
+.project {
+    flex: 0 0 calc(33.33% - 10px);
+    /* Три изображения в строке с учетом отступов */
+    margin-bottom: 20px;
+}
+
+.project-image {
+    width: 50%;
+    /* Ширина изображения проекта */
+    height: auto;
+    /* Автоматическая высота для сохранения пропорций */
+    border-radius: 20px;
+    /* Округление краев изображений */
+}
+
+.profile-pic {
+    width: 150px;
+    /* Ширина фотографии профиля */
+    border-radius: 20px;
+    /* Округление краев профиля */
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #f1f1f1;
+}
